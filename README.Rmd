@@ -1,0 +1,15 @@
+# Métrica de Gobierno Abierto (MGA)
+
+Proyecto formal reproducible de análisis de la Métrica de Gobierno Abierto.
+
+## Estructura del proyecto
+
+- `data/raw/` : Bases oficiales originales
+- `data/processed/` : Datos limpios
+- `R/` : Scripts de análisis
+- `outputs/` : Resultados
+- `reports/` : Documentos y reportes
+
+## Reproducibilidad
+
+Este proyecto está estructurado para permitir la replicación completa del análisis.
