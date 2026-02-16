@@ -1,4 +1,4 @@
 print("Hola desde R")
-Sabor
-Ahora quiero agregar color
-Quiero
+#R2
+#Ahora quiero agregar color a ggplot#
+#Mapas interactivos#
