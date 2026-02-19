@@ -1,15 +1,21 @@
 # Métrica de Gobierno Abierto (MGA)
 
-Proyecto formal reproducible de análisis de la Métrica de Gobierno Abierto.
+Proyecto reproducible de análisis y visualización territorial de la Métrica de Gobierno Abierto 2023 a nivel entidad federativa en México, desarrollado en R y Shiny.
 
 ## Estructura del proyecto
 
-- `data/raw/` : Bases oficiales originales
-- `data/processed/` : Datos limpios
-- `R/` : Scripts de análisis
-- `outputs/` : Resultados
-- `reports/` : Documentos y reportes
+data/raw/ : Base oficial MGA 2023
+
+data/processed/ : Datos normalizados
+
+app.R : Aplicación Shiny
+
+R/ : Scripts de transformación
+
+outputs/ : Resultados exportables
 
 ## Reproducibilidad
 
-Este proyecto está estructurado para permitir la replicación completa del análisis.
+El proyecto permite replicar completamente el análisis y ejecutarse localmente con:
+
+shiny::runApp("app.R")
